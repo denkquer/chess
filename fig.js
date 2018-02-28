@@ -457,7 +457,6 @@ function Dame(x,y,spieler) {
                     }
                   }
                 }
-              }
               //hui tests sind durch puhh..
               // mimimi ausnahme bei einem feld.
               if(floor(dist(this.x,this.y,confirmed.x,confirmed.y)) ==100){
@@ -470,7 +469,7 @@ function Dame(x,y,spieler) {
                    break;
                  }
               }
-
+            }
             if(this.roger){
               if(bigBoss(confirmed.x,confirmed.y,spieler,0)) {
                 console.log("mehr feld Dame");
